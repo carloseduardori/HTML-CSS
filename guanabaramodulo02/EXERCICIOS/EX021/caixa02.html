@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ccc;
+            margin: 0;
+        }
+
+        h1 {
+            width: 170px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+        }
+
+        img {
+            height: 120px;
+            width: 120px;
+            border: 0;
+            padding: 0px;
+            margin: 2px auto;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        nav {
+            padding: 3px;
+            background-color: rgb(92, 91, 91);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 5px;
+        }
+
+        nav>a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: lightgray;
+            border-radius: 4px;
+        }
+
+        article>aside {
+            background-color: rgb(182, 180, 180);
+            padding: 5px;
+            border-radius: 4px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+            box-shadow: 4px 4px 9px 0px rgb(0, 0, 0, 0.312);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sobre Mim</h1>
+        <img src="me.png" alt="mim">
+        <nav>
+            <a href="https://www.instagram.com/eduardozl.035/" target="_blank">Instagram</a>
+            <a href="https://twitter.com/caduxntj" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/in/carlos-eduardo-ribeiro-do-patrocinio-088850237/"
+                target="_blank">Linkedin</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Biografia sobre mim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quae, facilis ullam aperiam
+                    similique impedit harum, consequatur officia est dolore, cupiditate aliquid dolor. Sit velit,
+                    officiis esse vel doloremque qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+                    quos voluptatibus explicabo iure ea minus et aliquid, beatae accusantium animi enim nisi adipisci.
+                    Tenetur illum deleniti rem maiores quod! Qui.</p>
+                <aside>
+                    <p>Artigo escrito por Carlos Eduardo Ribeiro do Patrocinio</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Carlos Eduardo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
